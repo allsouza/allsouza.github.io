@@ -1,0 +1,33 @@
+.content{
+    .skills{
+        display: flex;
+        flex-direction: column;
+
+        .listed-skills{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+
+            li{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                transition: all 0.5s ease;
+
+                i{
+                    font-size: 80px;
+                }
+
+                svg{
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+
+            li:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
