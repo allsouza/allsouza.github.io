@@ -1,0 +1,40 @@
+.projects{
+    .features{
+
+        article{
+            display: flex;
+            flex-direction: column;
+            transition: all 0.5s ease;
+            justify-content: space-between;
+            img{
+                max-width: 100%;
+                padding-bottom: 20px;
+            }
+            h3{
+                margin-bottom: 0;
+                padding-bottom: 10px;
+            }
+            h4{
+                text-align: center;
+            }
+            .links{
+                display: flex;
+                justify-self: flex-end;
+                justify-content: space-between;
+                padding-bottom: 35px;
+
+                a:hover{
+                    font-weight: bold;
+                    color: rgb(156, 177, 189);
+                }
+                i{
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        article:hover{
+            transform: scale(1.1);
+        }
+    }
+}
