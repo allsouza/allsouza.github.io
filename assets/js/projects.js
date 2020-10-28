@@ -2,6 +2,18 @@ function projects() {
     
     document.addEventListener("DOMContentLoaded", () => {
 
+        window.addEventListener("hashchange", function (e) {
+            switch (e.newURL.split('#')[1]) {
+                case 'who-am-i':
+                    window.scrollTo(window.scrollX, window.scrollY - 200);
+                    break;
+                
+                default:
+                    window.scrollTo(window.scrollX, window.scrollY - 80);
+                    break;
+            }
+        });
+
         // Smarter Trading preview
         const smarterImg = document.querySelector('#smarter-img');
         const smarterTrading = document.querySelector('#smarter-trading');
