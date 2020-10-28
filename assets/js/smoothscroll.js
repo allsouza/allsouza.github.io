@@ -76,7 +76,7 @@ var ss = {
           break;
       
       default:
-          desty -= 80;
+          desty -= 40;
           break;
     }
 

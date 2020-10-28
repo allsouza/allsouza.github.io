@@ -9,7 +9,7 @@ function projects() {
                     break;
                 
                 default:
-                    window.scrollTo(window.scrollX, window.scrollY - 80);
+                    window.scrollTo(window.scrollX, window.scrollY - 40);
                     break;
             }
         });
