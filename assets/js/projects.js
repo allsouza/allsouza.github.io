@@ -24,6 +24,15 @@ function projects() {
             smarterImg.src = '../../images/smarter-trading.png';
         })
 
+        const coffeeImg = document.querySelector('#coffee-img');
+        const coffeeWages = document.querySelector('#coffee-wages');
+        coffeeWages.addEventListener('mouseenter', () => {
+            coffeeImg.src = '../../images/coffee.gif';
+        })
+        coffeeWages.addEventListener('mouseleave', () => {
+            coffeeImg.src = '../../images/coffee-wages.png';
+        })
+
         const hikeImg = document.querySelector('#hike-img');
         const TakeAHike = document.querySelector('#take-a-hike');
         TakeAHike.addEventListener('mouseenter', () => {
